@@ -100,7 +100,7 @@ http://cybersec.42madrid.com:3318/
 <br>
 
 <p align="justify">
-  Para encontrar el archivo, debemos utilizar técnicas de fuzzing. Gracias a herramientas como <a href="https://github.com/ffuf/ffuf">ffuf</a>, podemos encontrar rutas ocultas dentro de la URL. Por ejemplo, podemos buscar una <a href="https://github.com/maverickNerd/wordlists">lista de palabras comunes</a> y utilizarla con la herramienta que hemos mencionado anteriormente de la siguiente manera.
+  Para encontrar el archivo, debemos utilizar técnicas de <i>fuzzing</i>. Gracias a herramientas como <a href="https://github.com/ffuf/ffuf">ffuf</a>, podemos encontrar rutas ocultas dentro de la URL. Por ejemplo, podemos buscar una <a href="https://github.com/maverickNerd/wordlists">lista de palabras comunes</a> y utilizarla con la herramienta que hemos mencionado anteriormente de la siguiente manera.
 </p>
 
 ![image](https://github.com/user-attachments/assets/90ffce4f-462b-4476-832d-14868fce2aed)
@@ -156,4 +156,57 @@ http://cybersec.42madrid.com:3319/
 
 <br>
 
+<p align="justify">
+  Para encontrar el archivo, debemos utilizar un <i>path transversal</i>. Esto quiere decir, que es tan fácil como poner lo siguiente en el buscador que nos proporcionan.
+</p>
 
+![image](https://github.com/user-attachments/assets/e51ad247-c8f3-4c98-b41d-9df104a69bfe)
+
+<br>
+
+<p align="justify">
+  Al hacerlo, se nos mostrará la solución.
+</p>
+
+```
+42BCN{p47h7r4v3rs4l1s7h3w4y}
+```
+
+<br>
+
+---
+
+### ex03
+<p align="justify">
+  Para finalizar, debemos entrar en el siguiente enlace.
+</p>
+
+```
+http://cybersec.42madrid.com:3320/
+```
+
+<br>
+
+<p align="justify">
+  Al entrar, nos encontramos lo siguiente.
+</p>
+
+![image](https://github.com/user-attachments/assets/46bc9d3f-f9df-4d6f-8dd0-740a7e9cbb86)
+
+<br>
+
+<p align="justify">
+  Para encontrar el archivo, debemos utilizar una <i>inyección SQL</i>. Esto se puede llevar a cabo de diferentes maneras. Sin embargo, la forma más sencilla se realiza escribiendo lo siguiente (con un espacio final, después de <b>--</b>).
+</p>
+
+![image](https://github.com/user-attachments/assets/e9ae3e38-9c13-46e1-92ed-e0d40169af03)
+
+<br>
+
+<p align="justify">
+  Al introducirlo, se nos mostrará la solución.
+</p>
+
+```
+42BCN{welcomeHackerto42}
+```
